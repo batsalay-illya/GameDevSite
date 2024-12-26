@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, 	initial-scale=1.0">
+		<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 		<title>GameDev Site</title>
 
 		<link rel="stylesheet" href="style.css">
@@ -31,10 +32,10 @@
 
 				<footer>
 					<div class="dialogue">
-						<p>Welcome to my site, Traveler! There you can find all my games and assets. New content would be added to this collection, so, feel free to explore this site and contact with me in any time! Hope you find you're adventure...</p>
+						<div id="dialogue-text"></div>
 						<div class="dialogue-buttons">
 							<a href="#games"><div class="dialogue-button">1) Explore</div></a>
-							<a href="https://google.com"><div class="dialogue-button">2) Leave</div></a>
+							<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><div class="dialogue-button">2) Leave</div></a>
 						</div>
 					</div>
 				</footer>
@@ -53,7 +54,7 @@
 				</div>
 
 				<div class="game-info">
-					<a href="#games"><div class="game-header">
+					<a href="game-site-link"><div class="game-header">
 						<p class="title">Hellish Story</p>
 						<img src="images/Game1Title.png" alt="">
 					</div></a>
@@ -64,7 +65,7 @@
 					</div>
 					
 					<div class="game-description">
-						<p>2D strategy game where you must survive with your people in underground city and dp your best to save this world. This game has been in active development two years ago and now destiny of this project is not defined...
+						<p>A 2D strategy game where you must survive with your people in an underground city and do your best to save this world. This game was in active development two years ago, but the destiny of this project is now uncertain...
 						</p>
 					</div>
 				</div>
@@ -121,11 +122,10 @@
 					</div>
 					
 					<div class="asset-description">
-						<p>- 5 characters</p>
-						<p>- 10+ weapons</p>
-						<p>- .obj + .mtl</p>
-						<p>- .fbx</p>
-						<p>- .vox + .blend files</p>
+						<p>5 characters</p>
+						<p>10+ weapons</p>
+						<p>.obj + .mtl + .fbx</p>
+						<p>.vox + .blend files</p>
 					</div>
 				</div>
 
@@ -142,15 +142,10 @@
 					</div>
 					
 					<div class="asset-description">
-						<p>- 11 soldiers</p>
-						<p>- 20 hair styles</p>
-						<p>- 16 beards + 4 mustaches</p>
-						<p>- 16 accessories</p>
-						<p>- 7 backpacks</p>
-						<p>- 6 bodyarmors + 100+ helmets</p>
-						<p>- .obj + .mtl</p>
-						<p>- .fbx</p>
-						<p>- .vox + .blend files</p>
+						<p>11 soldiers</p>
+						<p>customization</p>
+						<p>.obj + .mtl + .fbx</p>
+						<p>.vox + .blend files</p>
 					</div>
 				</div>
 
@@ -167,10 +162,10 @@
 					</div>
 					
 					<div class="asset-description">
-						<p>- 29 low poly trees</p>
-						<p>- .obj + .mtl</p>
-						<p>- .fbx</p>
-						<p>- .blend file</p>
+						<p>29 low poly trees</p>
+						<p>.obj + .mtl</p>
+						<p>.fbx</p>
+						<p>.blend file</p>
 					</div>
 				</div>
 			</div>
@@ -241,6 +236,7 @@
 			
 
 		<a href="#welcome" title="Back to top" id="back-to-top">▲</a>
+		<script src="dialogue_typewriter.js"></script>
 		<script src="scroll_to_top.js"></script>
 		<script src="animation_on_scroll.js"></script>
 	</body>
